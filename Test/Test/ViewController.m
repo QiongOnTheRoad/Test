@@ -18,6 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
+    //再次添加测试信息
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 1001, 100, 30);
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
 }
 
 
