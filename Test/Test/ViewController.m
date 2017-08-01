@@ -23,6 +23,11 @@
     btn.frame = CGRectMake(100, 1001, 100, 30);
     btn.backgroundColor = [UIColor redColor];
     [self.view addSubview:btn];
+    
+    
+    //提交代码测试
+    UIView *view  = [[UIView alloc]init];
+    [self.view addSubview:view];
 }
 
 
